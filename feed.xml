@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Dip･et</title><subtitle>Dip･et - The blog of a would be web developer</subtitle><updated>2015-06-22T20:27:03-04:00</updated><id>tag:dipet.me,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://dipet.me/"/><link rel="self" type="application/atom+xml" href="http://dipet.me/feed.xml"/><rights>Copyright © 2015, Dion Pettaway</rights><author><name>Dion Pettaway</name><uri>http://dipet.me/</uri><email>dkp@dipet.me</email></author><entry><title>Hub</title><id>tag:dipet.me,2015:/Hub/</id><link rel="alternate" type="text/html" href="http://dipet.me/Hub.html"/><updated>2015-06-13T00:00:00-04:00</updated><author><name>Dion Pettaway</name><uri>http://dipet.me</uri><email>dkp@dipet.me</email></author><content type="html" xml:base="http://dipet.me/">
+          
+            &lt;p&gt;I spend quite a bit of time in terminal, almost everything I do for the day goes through the terminal and it&amp;#39;s rare that I don&amp;#39;t have a window open in the background somewhere. Granted I haven&amp;#39;t mustered up the courage to utilize VIM or EMAC.&lt;/p&gt;
+
+&lt;p&gt;One thing I wasn&amp;#39;t a fan of was the inability to create and push repos in Github from the terminal. Or at least to my knowledge. I recently learned that I could use cURL commands to create repos on Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;curl -u &amp;quot;$username:$token&amp;quot; https://api.github.com/user/repos -d &amp;#39;{&amp;quot;name&amp;quot;:&amp;quot;&amp;#39;$repo_name&amp;#39;&amp;quot;}&amp;#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I though, &amp;quot;could I create a script in bash that allows me to push my files without ever firing up chrome?&amp;quot;, so I decided to ask around on stack overflow for direction and embark on this.&lt;/p&gt;
+
+&lt;p&gt;I opened a query and the very first response returned something interesting. Someone else had already thought the samething and saved many people the trouble (obviously I wasn&amp;#39;t the first to think of this) of having to built it themselves; thus introducing &lt;a href=&quot;https://hub.github.com/&quot;&gt;Hub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A great little script that has already saved me time (or at least the repetition of having to create a new repo via the browser). Best thing to do is make an alias for hub (and name it git, as hub inherits all of git&amp;#39;s commands).&lt;/p&gt;
+
+&lt;p&gt;Hopefully others get some use out of hub. I still think I&amp;#39;m going to create my own script for creating an empty repo just to see if I can get the logic right, will probably be a weekend project.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Programming Is...</title><id>tag:dipet.me,2015:/Programming Is/</id><link rel="alternate" type="text/html" href="http://dipet.me/Programming%20Is.html"/><updated>2015-06-08T00:00:00-04:00</updated><author><name>Dion Pettaway</name><uri>http://dipet.me</uri><email>dkp@dipet.me</email></author><content type="html" xml:base="http://dipet.me/">
+          
+            &lt;p&gt;Ruby is an object oriented programming language. It&amp;#39;s so object oriented that everything is basically an object! I am of the belief that everyone should learn how to program. The logic portion of programming pays dividends in other areas and makes you a more well rounded person. I&amp;#39;ve been learning Ruby for the last 3 months and I absolutely love how expressive you can be with the language and the many upon many ways you can write your code and achieve the desired end result.&lt;/p&gt;
+
+&lt;p&gt;Programming has long been met with this stigma that you either can or can&amp;#39;t program and that the ability to do so is innate and if you miss out on that window you&amp;#39;ll never learn. I think this line of belief was born of the fact that many schools (and individuals who decided to teach themselves) went after a language that didn&amp;#39;t resonate with the person (I mean think of the number of schools out there that start people off with C++). &lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve attempted to program in the past and have had mixed results, the first language I ever attempted to learn was C++ taught by someone who to this day I feel was not qualified to be teaching the students anything. He&amp;#39;d introduce functions, arrays, loops, without proper explanation on what they do or at the very least giving examples of their use. It was also this teacher that made me hate taking community college classes while I was in highschool (I actually had just entered HS at the time).&lt;/p&gt;
+
+&lt;p&gt;I think anyone can learn to program at any time in their lives. It&amp;#39;s really about finding the programming language syntax that resonates with you. Some people flock to Javascript, others pick up C#, and others Python. Once you start to learn the basics of programming, the mindset and logic needed, picking up a new language becomes much simpler. But make no mistake, programming is a lifelong journey, you&amp;#39;ll never be a master as there is always something to learn. Unless you&amp;#39;re someone like John Carmack or Corrinne Yu...&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>A Promise</title><id>tag:dipet.me,2015:/A-Promise/</id><link rel="alternate" type="text/html" href="http://dipet.me/A-Promise.html"/><updated>2015-06-06T00:00:00-04:00</updated><author><name>Dion Pettaway</name><uri>http://dipet.me</uri><email>dkp@dipet.me</email></author><content type="html" xml:base="http://dipet.me/">
+          
+            &lt;p&gt;I told myself that on my journey in web development that I would keep a records of sorts on my findings and views on both the technology the industry uses and the interaction between the people who work in the industry.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Do or don&amp;#39;t...damn it son just try!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;#39;ll consider this my official declaration to actually update this blog and be as consistent as possible on updating it. I plan to cover a myriad of things on the blog and not limit it to just web development. I&amp;#39;ll probably use this as my hub for random reviews of products I purchase and perhaps as a repository of sorts for doodles and the like. At the very least i can say that I took a major step in actually getting myself to write more.&lt;/p&gt;
+
+&lt;p&gt;Despite evidence that suggests otherwise, I do enjoy writing about as much as I enjoy sleeping, learning, drawing (that is to say I love it quite a bit), but you would never know from my overall lack of enthusiasm, but make no mistake i do like to write. Send me an email and I&amp;#39;ll reply in novella form.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry></feed>
